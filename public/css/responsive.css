@@ -1,0 +1,753 @@
+@media only screen and (min-device-width: 1600px) and (max-device-width: 1920px) {
+  .mixer_section {
+    background-position: center -480px;
+  }
+}
+
+@media only screen and (max-width: 1599px) {
+  .mixer_section {
+    background-position: center -330px;
+  }
+}
+@media only screen and (max-width: 1419px) {
+  .mixer_section {
+    background-position: center -265px;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .mixer_section {
+    background-position: center -245px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .mixer_section {
+    background-position: center -195px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .mixer_section {
+    background-position: center -160px;
+  }
+  .home-banner-section::before {
+    height: 476px;
+  }
+  .home-banner-section::after {
+    height: 476px;
+  }
+  .fan_content {
+    max-width: 38%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .mixer_section {
+    background-position: center -100px;
+  }
+  .mixer_section:before {
+    height: 280px;
+  }
+  .home-banner-section::before {
+    height: 432px;
+  }
+  .home-banner-section::after {
+    height: 432px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .mixer_section {
+    background-position: center -95px;
+  }
+  .home-banner-section::before {
+    height: 401px;
+  }
+  .home-banner-section::after {
+    height: 401px;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .mixer_section {
+    background-position: center center;
+  }
+  .mixer_section:before {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1079px) {
+  .utensils_section {
+    flex-direction: column;
+  }
+  .utensils_section .utensils_left {
+    order: 1;
+    width: 100%;
+    max-width: 100%;
+  }
+  .utensils_section .utensils_right {
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+  }
+  .fan_section {
+    flex-direction: column;
+  }
+  .fan_section .chimney_banner {
+    width: 100%;
+    max-width: 100%;
+  }
+  .fan_section .fan_area_left {
+    width: 100%;
+    max-width: 100%;
+  }
+  .first_category {
+    flex-direction: column;
+  }
+  .first_category .category_block {
+    width: 100%;
+    max-width: 100%;
+  }
+  .first_category .small_cat {
+    width: 100%;
+    max-width: 100%;
+  }
+  .first_category .sandwitch_block {
+    width: 100%;
+    max-width: 100%;
+  }
+  .first_category .toaster_block {
+    width: 100%;
+    max-width: 100%;
+  }
+  .other_product_section {
+    flex-direction: column;
+  }
+  .product_section_right {
+    width: 100%;
+    max-width: 100%;
+  }
+  .product_section_left {
+    width: 100%;
+    max-width: 100%;
+  }
+  .earphone_section {
+    flex-direction: column;
+  }
+  .earphone_section .earphone_left {
+    width: 100%;
+    max-width: 100%;
+  }
+  .earphone_section .earphone_right {
+    width: 100%;
+    max-width: 100%;
+  }
+  .headphone_section {
+    flex-direction: column;
+  }
+  .headphone_section .headphone_left {
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+  }
+  .headphone_section .headphone_right {
+    order: 1;
+    width: 100%;
+    max-width: 100%;
+  }
+  .cook_section {
+    flex-direction: column;
+  }
+  .cook_section .mouse_block {
+    width: 100%;
+    max-width: 100%;
+  }
+  .cook_section .cooker_block {
+    width: 100%;
+    max-width: 100%;
+  }
+  .ser-list li {
+    max-width: 50%;
+    flex: 0 0 50%;
+    margin-bottom: 20px;
+  }
+  /* air cooler section */
+  .aircooler {
+    flex-direction: column;
+  }
+  .aircooler_left {
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+  .aircooler_right {
+    max-width: 100%;
+  }
+  .aircooler_name {
+    max-width: 240px;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .earphone_right img {
+    display: block;
+    max-width: 75%;
+    margin: 50px auto;
+  }
+  .battery_time {
+    font-size: 120px;
+    padding-right: 40px;
+  }
+  .battery_time span {
+    top: 22px;
+    font-size: 24px;
+  }
+  .battery_time div {
+    top: 46px;
+    font-size: 16px;
+  }
+  .earphone_content_right {
+    right: 20px;
+  }
+  .dryer_image {
+    max-width: 150px;
+  }
+  .video_list li .play_btn {
+    width: 30px;
+    height: 30px;
+  }
+  .video_list li .play_btn img {
+    max-width: 14px;
+  }
+  .utensils_right img.utensils_content_img {
+    display: block;
+    max-width: 75%;
+    margin: 40px auto;
+  }
+  .utensils_content_right {
+    max-width: 30%;
+    /* max-width: 40%; */
+  }
+  .product-details__gallery {
+    top: 0;
+  }
+  .product-details__gallery__thumb-single {
+    height: 100px;
+  }
+  .footer-form input[type="email"] {
+    font-size: 13px;
+  }
+  .footer-form button[type="submit"] {
+    width: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .latest-btm {
+    font-size: 14px;
+  }
+  .tv_slider {
+    padding-bottom: 20px;
+  }
+  .listing-header h1 {
+    margin-top: 30px;
+  }
+  .listing-header h1 + h1 {
+    margin-top: 0;
+  }
+  .listing-block .product__single {
+    width: calc((100% - 56px) / 2);
+  }
+  .mixer_section h3 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .home-banner-section::before {
+    height: 696px;
+  }
+  .home-banner-section::after {
+    height: 696px;
+  }
+  .home-banner-section {
+    padding-bottom: 30px;
+  }
+  .home-section {
+    padding-top: 30px;
+  }
+  .product-image {
+    margin: 0 0 20px;
+  }
+  .headphone_left img {
+    max-height: 300px;
+  }
+  .latest-btm {
+    margin-top: 20px !important;
+  }
+  .product-image figure {
+    margin-top: 20px;
+  }
+  .utensils_content_right {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    padding: 20px 20px 0;
+    text-align: center;
+    max-width: 100%;
+  }
+  .utensils_content_left {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 100%;
+    padding: 0 20px 40px;
+    text-align: center;
+    max-width: 100%;
+    transform: none;
+    margin-top: -30px;
+  }
+  .utensils_content_left ul {
+    columns: 4;
+    column-gap: 10px;
+  }
+  .utensils_content_left ul li {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .utensils_content_left ul li img {
+    width: 32px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .utensils_slider .swiper-pagination {
+    bottom: 20px;
+  }
+  .fan_section .chimney_banner {
+    padding-top: 20px;
+  }
+  .fan_content {
+    height: 35%;
+    top: 0;
+    transform: none;
+    max-width: 100%;
+    padding: 20px 30px;
+  }
+  .fan_content ul.fan_spec {
+    margin: 20px 0;
+  }
+  .fan_image_shadow {
+    top: 25%;
+    left: 35%;
+  }
+  .fan_dotted_bg {
+    background-repeat: repeat;
+  }
+  .fan_image {
+    max-width: 100%;
+    margin-top: 40%;
+  }
+  .fan_image img {
+    transform: rotate(90deg) scale(1.5);
+  }
+  .category_block {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .category_slider {
+    max-width: 100%;
+    order: 1;
+  }
+  .category_content {
+    max-width: 100%;
+    order: 2;
+  }
+  .category_feture {
+    align-items: center;
+    padding: 0 10px;
+    max-width: 100%;
+    order: 3;
+  }
+  .category_content h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .category_content h4 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .category_content .price {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .category_feture ul {
+    display: none;
+  }
+  .frying_section:before {
+    width: 100%;
+    height: 400px;
+    border-radius: 0 0 50% 50%;
+  }
+  .panel_right {
+    max-width: 100%;
+  }
+  .panel_left {
+    max-width: 100%;
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+  .prod_details.active {
+    flex-direction: column-reverse;
+  }
+  .product_content {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .product_thumb {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  .product_content h2 {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  .thumb_banner {
+    margin: 10px 0;
+  }
+  .product_thumb figure {
+    margin: 20px 0;
+  }
+  .panel_left ul {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+  .panel_left ul li {
+    flex: 1 0 0%;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+  .panel_left li img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    padding: 10px;
+    object-fit: scale-down;
+  }
+  .panel_left li:after {
+    width: 100%;
+    height: 100%;
+  }
+  .product_section_left {
+    flex-direction: column-reverse;
+  }
+  .other_content {
+    max-width: 100%;
+    padding: 20px 0 0;
+  }
+  .dryer_image {
+    display: none;
+  }
+  .mixer_section {
+    padding: 20px 0;
+  }
+  .mixer_section > img {
+    object-position: top center;
+  }
+  .mixer_content {
+    align-items: center;
+    justify-content: center;
+  }
+  .mixer_section h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .mixer_section p {
+    margin: 0 0 10px;
+  }
+  .mixer_section a.btn {
+    margin: 0;
+  }
+  .mixer_img {
+    margin: 0;
+  }
+  .mixer_specification {
+    margin-bottom: 10px;
+  }
+  .video_list {
+    display: none;
+  }
+  .mixer_specification li {
+    max-width: calc(25% - 2px);
+    flex-direction: column;
+    text-align: center;
+    padding: 8px;
+  }
+  .mixer_specification li figure {
+    margin: 0 0 10px;
+  }
+  .bud_slider {
+    padding-bottom: 40px;
+  }
+  .bud_slider .swiper-slide {
+    display: flex;
+    flex-direction: column;
+  }
+  .earphone_content_right {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    display: block;
+    max-width: 100%;
+    order: 1;
+    text-align: center;
+  }
+  .earphone_content_left {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: block;
+    transform: none;
+    width: 100%;
+    max-width: 100%;
+    order: 3;
+  }
+  .earphone_right img {
+    margin: 20px auto;
+    order: 2;
+  }
+  .earphone_content_right h6 {
+    margin-top: 30px;
+  }
+  .earphone_content_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .battery_time {
+    max-width: 180px;
+  }
+  .earphone_content_left .latest-btm {
+    margin-top: 0 !important;
+    margin-left: 50px;
+  }
+  .cooker_block {
+    flex-direction: column;
+  }
+  .cooker_content {
+    max-width: 100%;
+    padding: 20px 15px 0;
+  }
+  .cooker_image {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .cooker_image img {
+    top: 0px;
+    padding-bottom: 20px;
+  }
+  .fan_area .color_spec {
+    margin-bottom: 0;
+  }
+  /* .fan_content {
+    height: calc(100% - 60px);
+  } */
+  .fan_data_content.active {
+    position: relative;
+    height: 100%;
+  }
+  .fan_data_content.active .latest-btn-white {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  /* air cooler section */
+  .aircooler_name h3 {
+    font-size: 25px;
+  }
+  .aircooler_text {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .order_btn a {
+    font-size: 14px;
+  }
+  .aircooler_name {
+    max-width: 160px;
+  }
+  .aircooler_info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aircooler_name {
+    max-width: 100%;
+    text-align: center;
+  }
+  .feature-image-box {
+    width: 250px !important;
+    margin: 0 auto;
+  }
+  /* new add css date 03/06/2024 */
+  .headphone_left .image_area.active {
+    flex-direction: column;
+  }
+  .headphone_content {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .headphone_content h2 {
+    margin-bottom: 20px;
+  }
+  .headphone_content ul {
+    margin: 0px 0;
+  }
+  .latest-btn-white {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .product-details__gallery__thumb-single {
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .headphone_content {
+    padding-top: 0px;
+  }
+  .home-banner-section::before {
+    height: 626px;
+  }
+  .home-banner-section::after {
+    height: 626px;
+  }
+  .frying_section:before {
+    height: 200px;
+  }
+  .sandwitch_block img {
+    display: block;
+    margin: 20px auto;
+  }
+  .listing-block .product__single {
+    width: 100%;
+  }
+  .product-details__gallery__thumb-single {
+    height: 50px;
+  }
+  .ser-list li {
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-bottom: 25px;
+  }
+  .ser-list li:nth-child(3) {
+    margin-bottom: 25px;
+  }
+  .fan_content .latest-btn-white {
+    font-size: 14px;
+    padding: 12px 30px;
+  }
+
+  .aircooler_name h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .aircooler_text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .aircooler_info {
+    padding: 15px;
+  }
+
+  .aircooler_right {
+    padding: 15px;
+  }
+  .aircooler_content svg {
+    height: 70px;
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .other_content h2 {
+    padding: 0 10px;
+  }
+  .earphone_content_right h2 {
+    padding: 0 10px;
+  }
+  .chimney_banner h2 {
+    font-size: 28px;
+  }
+  .utensils_content_left ul li {
+    font-size: 12px;
+  }
+  .fan_content ul.fan_spec li p {
+    font-size: 12px;
+  }
+  .cart-summary-list li {
+    text-align: center;
+    padding-left: 10px;
+  }
+  .cart-summary-list li > img {
+    display: block;
+    position: relative;
+    top: auto;
+    left: auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    margin: 0 auto 20px;
+  }
+}
+
+@media only screen and (max-width:403px){
+  .home-banner-section:before {
+    height: 525px;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .home-banner-section::before {
+    height: 583px;
+  }
+  .home-banner-section::after {
+    height: 583px;
+  }
+  .order-card-header {
+    flex-wrap: wrap;
+  }
+  .order-card-header figcaption {
+    flex: auto;
+    width: calc(100% - 55px);
+  }
+  .order-card-header a {
+    margin-top: 10px;
+  }
+  .checkout-proceed-row {
+    width: 100%;
+    margin: 0;
+  }
+  .fan_content {
+    height: 38%;
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 359px) {
+  .cart-summary-list li .coupon-block {
+    flex-direction: column;
+    border: none;
+  }
+  .cart-summary-list li .coupon-block .coupon-text {
+    border: 1px solid #ddd;
+  }
+  .cart-summary-list li .coupon-block button {
+    width: 100%;
+    border: 1px solid #141b4b;
+  }
+}
